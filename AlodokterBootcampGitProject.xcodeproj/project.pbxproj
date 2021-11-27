@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4D684C2751E1F100BC8EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D684B2751E1F100BC8EDF /* AppDelegate.swift */; };
+		2C4D684E2751E1F100BC8EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D684D2751E1F100BC8EDF /* SceneDelegate.swift */; };
+		2C4D68502751E1F100BC8EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D684F2751E1F100BC8EDF /* ViewController.swift */; };
+		2C4D68532751E1F100BC8EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D68512751E1F100BC8EDF /* Main.storyboard */; };
+		2C4D68552751E1F300BC8EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D68542751E1F300BC8EDF /* Assets.xcassets */; };
+		2C4D68582751E1F300BC8EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D68562751E1F300BC8EDF /* LaunchScreen.storyboard */; };
+		2C4D68632751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D68622751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.swift */; };
+		2C4D686D2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D686C2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.swift */; };
+		2C4D686F2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D686E2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C4D685F2751E1F400BC8EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4D68402751E1F100BC8EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4D68472751E1F100BC8EDF;
+			remoteInfo = AlodokterBootcampGitProject;
+		};
+		2C4D68692751E1F400BC8EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4D68402751E1F100BC8EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4D68472751E1F100BC8EDF;
+			remoteInfo = AlodokterBootcampGitProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C4D68482751E1F100BC8EDF /* AlodokterBootcampGitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlodokterBootcampGitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4D684B2751E1F100BC8EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C4D684D2751E1F100BC8EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C4D684F2751E1F100BC8EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4D68522751E1F100BC8EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C4D68542751E1F300BC8EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4D68572751E1F300BC8EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C4D68592751E1F400BC8EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4D685E2751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlodokterBootcampGitProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4D68622751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlodokterBootcampGitProjectTests.swift; sourceTree = "<group>"; };
+		2C4D68682751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlodokterBootcampGitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4D686C2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlodokterBootcampGitProjectUITests.swift; sourceTree = "<group>"; };
+		2C4D686E2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlodokterBootcampGitProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4D68452751E1F100BC8EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4D685B2751E1F400BC8EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4D68652751E1F400BC8EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4D683F2751E1F100BC8EDF = {
+			isa = PBXGroup;
+			children = (
+				2C4D684A2751E1F100BC8EDF /* AlodokterBootcampGitProject */,
+				2C4D68612751E1F400BC8EDF /* AlodokterBootcampGitProjectTests */,
+				2C4D686B2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests */,
+				2C4D68492751E1F100BC8EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4D68492751E1F100BC8EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D68482751E1F100BC8EDF /* AlodokterBootcampGitProject.app */,
+				2C4D685E2751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.xctest */,
+				2C4D68682751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4D684A2751E1F100BC8EDF /* AlodokterBootcampGitProject */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D684B2751E1F100BC8EDF /* AppDelegate.swift */,
+				2C4D684D2751E1F100BC8EDF /* SceneDelegate.swift */,
+				2C4D684F2751E1F100BC8EDF /* ViewController.swift */,
+				2C4D68512751E1F100BC8EDF /* Main.storyboard */,
+				2C4D68542751E1F300BC8EDF /* Assets.xcassets */,
+				2C4D68562751E1F300BC8EDF /* LaunchScreen.storyboard */,
+				2C4D68592751E1F400BC8EDF /* Info.plist */,
+			);
+			path = AlodokterBootcampGitProject;
+			sourceTree = "<group>";
+		};
+		2C4D68612751E1F400BC8EDF /* AlodokterBootcampGitProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D68622751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.swift */,
+			);
+			path = AlodokterBootcampGitProjectTests;
+			sourceTree = "<group>";
+		};
+		2C4D686B2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D686C2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.swift */,
+				2C4D686E2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITestsLaunchTests.swift */,
+			);
+			path = AlodokterBootcampGitProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4D68472751E1F100BC8EDF /* AlodokterBootcampGitProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4D68722751E1F500BC8EDF /* Build configuration list for PBXNativeTarget "AlodokterBootcampGitProject" */;
+			buildPhases = (
+				2C4D68442751E1F100BC8EDF /* Sources */,
+				2C4D68452751E1F100BC8EDF /* Frameworks */,
+				2C4D68462751E1F100BC8EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlodokterBootcampGitProject;
+			productName = AlodokterBootcampGitProject;
+			productReference = 2C4D68482751E1F100BC8EDF /* AlodokterBootcampGitProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C4D685D2751E1F400BC8EDF /* AlodokterBootcampGitProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4D68752751E1F500BC8EDF /* Build configuration list for PBXNativeTarget "AlodokterBootcampGitProjectTests" */;
+			buildPhases = (
+				2C4D685A2751E1F400BC8EDF /* Sources */,
+				2C4D685B2751E1F400BC8EDF /* Frameworks */,
+				2C4D685C2751E1F400BC8EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4D68602751E1F400BC8EDF /* PBXTargetDependency */,
+			);
+			name = AlodokterBootcampGitProjectTests;
+			productName = AlodokterBootcampGitProjectTests;
+			productReference = 2C4D685E2751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C4D68672751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4D68782751E1F500BC8EDF /* Build configuration list for PBXNativeTarget "AlodokterBootcampGitProjectUITests" */;
+			buildPhases = (
+				2C4D68642751E1F400BC8EDF /* Sources */,
+				2C4D68652751E1F400BC8EDF /* Frameworks */,
+				2C4D68662751E1F400BC8EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4D686A2751E1F400BC8EDF /* PBXTargetDependency */,
+			);
+			name = AlodokterBootcampGitProjectUITests;
+			productName = AlodokterBootcampGitProjectUITests;
+			productReference = 2C4D68682751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4D68402751E1F100BC8EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2C4D68472751E1F100BC8EDF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2C4D685D2751E1F400BC8EDF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2C4D68472751E1F100BC8EDF;
+					};
+					2C4D68672751E1F400BC8EDF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2C4D68472751E1F100BC8EDF;
+					};
+				};
+			};
+			buildConfigurationList = 2C4D68432751E1F100BC8EDF /* Build configuration list for PBXProject "AlodokterBootcampGitProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4D683F2751E1F100BC8EDF;
+			productRefGroup = 2C4D68492751E1F100BC8EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4D68472751E1F100BC8EDF /* AlodokterBootcampGitProject */,
+				2C4D685D2751E1F400BC8EDF /* AlodokterBootcampGitProjectTests */,
+				2C4D68672751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4D68462751E1F100BC8EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4D68582751E1F300BC8EDF /* LaunchScreen.storyboard in Resources */,
+				2C4D68552751E1F300BC8EDF /* Assets.xcassets in Resources */,
+				2C4D68532751E1F100BC8EDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4D685C2751E1F400BC8EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4D68662751E1F400BC8EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4D68442751E1F100BC8EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4D68502751E1F100BC8EDF /* ViewController.swift in Sources */,
+				2C4D684C2751E1F100BC8EDF /* AppDelegate.swift in Sources */,
+				2C4D684E2751E1F100BC8EDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4D685A2751E1F400BC8EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4D68632751E1F400BC8EDF /* AlodokterBootcampGitProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4D68642751E1F400BC8EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4D686F2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITestsLaunchTests.swift in Sources */,
+				2C4D686D2751E1F400BC8EDF /* AlodokterBootcampGitProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C4D68602751E1F400BC8EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4D68472751E1F100BC8EDF /* AlodokterBootcampGitProject */;
+			targetProxy = 2C4D685F2751E1F400BC8EDF /* PBXContainerItemProxy */;
+		};
+		2C4D686A2751E1F400BC8EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4D68472751E1F100BC8EDF /* AlodokterBootcampGitProject */;
+			targetProxy = 2C4D68692751E1F400BC8EDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C4D68512751E1F100BC8EDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4D68522751E1F100BC8EDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C4D68562751E1F300BC8EDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4D68572751E1F300BC8EDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C4D68702751E1F500BC8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C4D68712751E1F500BC8EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4D68732751E1F500BC8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWVAEMBXMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlodokterBootcampGitProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanfaluda.AlodokterBootcampGitProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C4D68742751E1F500BC8EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWVAEMBXMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlodokterBootcampGitProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanfaluda.AlodokterBootcampGitProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C4D68762751E1F500BC8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWVAEMBXMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanfaluda.AlodokterBootcampGitProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlodokterBootcampGitProject.app/AlodokterBootcampGitProject";
+			};
+			name = Debug;
+		};
+		2C4D68772751E1F500BC8EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWVAEMBXMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanfaluda.AlodokterBootcampGitProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlodokterBootcampGitProject.app/AlodokterBootcampGitProject";
+			};
+			name = Release;
+		};
+		2C4D68792751E1F500BC8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWVAEMBXMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanfaluda.AlodokterBootcampGitProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlodokterBootcampGitProject;
+			};
+			name = Debug;
+		};
+		2C4D687A2751E1F500BC8EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWVAEMBXMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanfaluda.AlodokterBootcampGitProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlodokterBootcampGitProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4D68432751E1F100BC8EDF /* Build configuration list for PBXProject "AlodokterBootcampGitProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4D68702751E1F500BC8EDF /* Debug */,
+				2C4D68712751E1F500BC8EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4D68722751E1F500BC8EDF /* Build configuration list for PBXNativeTarget "AlodokterBootcampGitProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4D68732751E1F500BC8EDF /* Debug */,
+				2C4D68742751E1F500BC8EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4D68752751E1F500BC8EDF /* Build configuration list for PBXNativeTarget "AlodokterBootcampGitProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4D68762751E1F500BC8EDF /* Debug */,
+				2C4D68772751E1F500BC8EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4D68782751E1F500BC8EDF /* Build configuration list for PBXNativeTarget "AlodokterBootcampGitProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4D68792751E1F500BC8EDF /* Debug */,
+				2C4D687A2751E1F500BC8EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C4D68402751E1F100BC8EDF /* Project object */;
+}
